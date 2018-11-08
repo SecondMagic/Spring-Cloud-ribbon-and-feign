@@ -23,7 +23,7 @@ public class MyCustomerController {
 	public String getInfo(@RequestParam String name) {
 		String result="";
 		
-		result+=name+" | "+myServiceIService.getInfoOther()+" | "+myServiceIIService.getInfo();
+		result+=name+" | "+myServiceIService.getInfo()+" | "+myServiceIIService.getInfo();
 		
 		return result;
 	}
